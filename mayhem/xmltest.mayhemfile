@@ -1,0 +1,4 @@
+project: PROJECT
+target: xmltest
+cmds:
+- cmd: /out/xmltest
