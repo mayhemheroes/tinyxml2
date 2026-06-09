@@ -1,0 +1,6 @@
+project: tinyxml2
+target: xmltest2
+cmds:
+  - cmd: /mayhem/xmltest2
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/xml.dict
