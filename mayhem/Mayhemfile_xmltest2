@@ -1,0 +1,8 @@
+project: tinyxml2
+target: xmltest2
+testsuite: # mayhem-lint: keep-testsuite
+  - file:///mayhem/mayhem/testsuite/xmltest2/
+cmds:
+  - cmd: /mayhem/xmltest2
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/xml.dict
